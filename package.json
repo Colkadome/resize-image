@@ -1,0 +1,32 @@
+{
+  "name": "resize-image",
+  "version": "0.0.1",
+  "description": "Resizes an image in the browser",
+  "sideEffects": false,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "resize",
+    "browser",
+    "image",
+    "canvas",
+    "fit"
+  ],
+  "authors": [
+    "Joseph Dunne <josephdunne1993@gmail.com>"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Colkadome/resize-image"
+  },
+  "bugs": {
+    "url": "https://github.com/Colkadome/resize-image/issues"
+  },
+  "files": [
+    "LICENSE",
+    "index.js"
+  ]
+}

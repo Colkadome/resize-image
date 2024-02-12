@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+  <meta charset="utf-8">
+
+  <title>Test</title>
+  
+  <style type="text/css">
+
+    body {
+      margin: 0;
+      padding: 20px;
+      font-family: sans-serif;
+    }
+    
+    .test-image {
+      max-width: 200px;
+    }
+
+    .results-table {
+      margin-top: 20px;
+    }
+    
+    .results-table th {
+      padding: 0 20px 0 0;
+      text-align: left;
+    }
+    
+    .results-table td {
+      padding: 0 20px 0 0;
+    }
+
+    .results-table img {
+      max-width: 512px;
+    }
+
+  </style>
+
+</head>
+<body>
+
+  <h1>Test resizing</h1>
+
+  <div>
+    <img id="jpeg-image" class="test-image" crossOrigin="anonymous" src="https://images.unsplash.com/photo-1624720564142-04c1c577ba7f?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&dl=pavlo-hromadchuk-7Id0_yyPQ6A-unsplash.jpg">
+    <img id="png-image" class="test-image" crossOrigin="anonymous" src="https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png">
+  </div>
+
+  <div>
+    <button id="test-button" type="button">Run Tests</button>
+  </div>
+
+  <div>
+    <table id="test-results" class="results-table">
+      <thead>
+        <tr>
+          <th>Test name</th>
+          <th>Output</th>
+          <th>Output Smoothed</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <script type="module" src="./test.js"></script>
+
+</body>
+</html>
